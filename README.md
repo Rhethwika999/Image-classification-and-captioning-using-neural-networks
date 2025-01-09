@@ -15,9 +15,10 @@ The aim of this project is to develop a comprehensive system that can classify i
 - **Built Using**: CNNs for feature extraction and RNNs for sequence generation
 
 ## Dataset Details
-- **Image Classification Dataset**: [Specify the dataset used, e.g., CIFAR-10, ImageNet]
-- **Image Captioning Dataset**: [Specify the dataset used, e.g., MS COCO, Flickr8k]
-
+- **Image Classification Dataset**: This project will use a subset of images from Tiny ImageNet, which is a subset of the ImageNet dataset. Our subset of Tiny ImageNet contains 30 different categories, we will refer to it as TinyImageNet30. The training set has 450 resized images (64x64 pixels) for each category (13,500 images in total).We have used CIFAR10 dataset for transfer learning which is available from  torchvision.datasets.CIFAR10 (https://pytorch.org/vision/stable/generated/torchvision.datasets.CIFAR10.html)
+  
+- **Image Captioning Dataset**: This project utilizes a subset of the COCO (Common Objects in Context) dataset for image caption generation. The complete COCO dataset comprises 330,000 images spanning 80 object categories, with each image accompanied by at least five textual reference captions. Our selected subset, referred to as COCO_5070, includes approximately 5,070 images, each annotated with five or more unique descriptions highlighting the prominent objects and activities within the images.
+- 
 ## Libraries and Packages Used
 - **TensorFlow/Keras**: For building and training the neural networks
 - **NumPy**: For numerical computations
