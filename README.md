@@ -1,25 +1,24 @@
 
+# Image Classificaton and Captioning using neural networks 🌅
 
-# Image Classification and Captioning using neural networks
-
-## Aim
+## Aim 🔍
 The aim of this project is to develop a comprehensive system that can classify images into predefined categories and generate descriptive captions for the images.
 
-## Objectives
+## Objectives 💡
 ### Image Classification
 - **Objective**: To accurately classify images into their respective categories using a deep learning model.
 - **Built Using**: Convolutional Neural Networks (CNNs)
 
-### Image Captioning
+### Image Captioning 
 - **Objective**: To generate meaningful captions for images using a combination of CNNs and Recurrent Neural Networks (RNNs).
 - **Built Using**: CNNs for feature extraction and RNNs for sequence generation
 
-## Dataset Details
+## Dataset Details 📊
 - **Image Classification Dataset**: This project will use a subset of images from Tiny ImageNet, which is a subset of the ImageNet dataset. Our subset of Tiny ImageNet contains 30 different categories, we will refer to it as TinyImageNet30. The training set has 450 resized images (64x64 pixels) for each category (13,500 images in total).We have used CIFAR10 dataset for transfer learning which is available from  torchvision.datasets.CIFAR10 (https://pytorch.org/vision/stable/generated/torchvision.datasets.CIFAR10.html)
   
 - **Image Captioning Dataset**: This project utilizes a subset of the COCO (Common Objects in Context: https://cocodataset.org/#home) dataset for image caption generation. The complete COCO dataset comprises 330,000 images spanning 80 object categories, with each image accompanied by at least five textual reference captions. Our selected subset, referred to as COCO_5070, includes approximately 5,070 images, each annotated with five or more unique descriptions highlighting the prominent objects and activities within the images.
-- 
-## Libraries and Packages Used
+
+## Libraries and Packages Used 📦
 - **TensorFlow/Keras**: For building and training the neural networks
 - **NumPy**: For numerical computations
 - **Pandas**: For data manipulation and analysis
@@ -27,7 +26,7 @@ The aim of this project is to develop a comprehensive system that can classify i
 - **OpenCV**: For image processing
 - **NLTK**: For natural language processing tasks
 
-## Methodology
+## Methodology 📈
 ### Image Classification
 1. **Data Preprocessing**: Load and preprocess the images (resizing, normalization).
 2. **Model Architecture**: Design a CNN architecture suitable for the classification task.
@@ -43,7 +42,7 @@ The aim of this project is to develop a comprehensive system that can classify i
 5. **Evaluation**: Evaluate the model using metrics like BLEU score.
 6. **Optimization**: Fine-tune the model to improve caption quality.
 
-## Implementation Steps
+## Implementation Steps 🤔
 1. **Setup Environment**: Install necessary libraries and packages.
 2. **Data Preparation**: Download and preprocess the datasets.
 3. **Model Development**:
